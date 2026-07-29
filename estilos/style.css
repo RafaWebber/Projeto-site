@@ -10,8 +10,21 @@ body {
 
 main {
     background-color: aliceblue;
-    width: 500px;
+    width: 700px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px black;
+}
+img.lado {
+    float: right;
+}
+
+img.centro{
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
 }
