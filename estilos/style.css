@@ -3,6 +3,7 @@
     font-size: 20px;
     padding: 0px;
     margin: 0px;
+    text-decoration: none;
 
 }
 
@@ -16,11 +17,11 @@ header{
     gap: 12px;
     align-items: center;
     justify-content: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.600);
 }
 header > h1 {
     font-size: 60px;
    
-
 }
 header > img{
     max-width: 200px;
@@ -28,18 +29,22 @@ header > img{
     
 }
 
-
 main {
     background-color: aliceblue;
     max-width: 900px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px black;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.600);
 }
 main > article > ul > li > img {
     max-width: 30px;
     height: auto;
 }
+img.linkzin{
+    max-width: 20px;
+    height: auto;
+}
+
 article{
     padding-bottom: 50px;
 }
@@ -50,4 +55,20 @@ article > h2 {
 ul{
     padding-left: 40px;
     columns: 2;
+}
+a{
+   color: rgb(0, 106, 71);
+}
+a:hover{
+    background-color: rgb(60, 60, 255);
+    color: aqua;
+    padding: 2px;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(29, 29, 113);
+    color: aliceblue;
 }
