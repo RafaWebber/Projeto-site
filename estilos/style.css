@@ -11,15 +11,23 @@ body {
 }
 header{
     background-color: rgb(106, 106, 247);
-    text-align: center;
+    margin: auto;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
 }
-header > h1 > span{
+header > h1 {
     font-size: 60px;
+   
+
 }
-header > h1 > img{
-    width: 200px;
+header > img{
+    max-width: 200px;
     height: auto;
+    
 }
+
 
 main {
     background-color: aliceblue;
