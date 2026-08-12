@@ -23,13 +23,13 @@ header > h1 > img{
 
 main {
     background-color: aliceblue;
-    width: 900px;
+    max-width: 900px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px black;
 }
 main > article > ul > li > img {
-    width: 30px;
+    max-width: 30px;
     height: auto;
 }
 article{
